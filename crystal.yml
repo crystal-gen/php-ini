@@ -1,0 +1,22 @@
+name: php-ini
+type: schema
+version: 0.1.0
+description: 'php.ini schema for [Crystal](http://crystal.sh)'
+
+author:
+  name: Chris Tate
+  email: chris@studiotate.com
+  url: http://studiotate.com
+copyright: 2015 Studio Tate
+
+repository:
+  type: git
+  url: https://github.com/studiotate/crystal-php-ini.git
+
+schema:
+  type: object
+  additionalProperties: false
+
+generators:
+  project:
+    version: latest

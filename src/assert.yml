@@ -1,0 +1,12 @@
+type: object
+properties:
+  active:
+    type: boolean
+  bail:
+    type: boolean
+  callback:
+    type: string
+  quiet_eval:
+    type: boolean
+  warning:
+    type: boolean

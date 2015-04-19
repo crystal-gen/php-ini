@@ -1,0 +1,59 @@
+type: object
+properties:
+  cache_by_default:
+    type: boolean
+  enabled:
+    type: boolean
+  enable_cli:
+    type: boolean
+  file_update_protection:
+    type: integer
+  filters:
+    type: string
+  gc_ttl:
+    type: integer
+  include_once_override:
+    type: boolean
+  localcache:
+    type:
+      - boolean
+      - object
+    properties:
+      size:
+        type: integer
+  max_file_size:
+    type: integer
+  mmap_file_mask:
+    type: string
+  num_files_hint:
+    type: integer
+  optimization:
+    type: integer
+  report_autofilter:
+    type: boolean
+  rfc1867:
+    type: boolean
+  rfc1867_freq:
+    type: string
+  rfc1867_name:
+    type: string
+  rfc1867_prefix:
+    type: string
+  shm_segments:
+    type: integer
+  shm_size:
+    type: integer
+  slam_defense:
+    type: integer
+  stat:
+    type: integer
+  stat_ctime:
+    type: integer
+  ttl:
+    type: integer
+  user_entries_hint:
+    type: integer
+  user_ttl:
+    type: integer
+  write_lock:
+    type: integer

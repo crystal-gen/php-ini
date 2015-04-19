@@ -1,0 +1,16 @@
+type: object
+properties:
+  check_shebang_line:
+    type: boolean
+  discard_path:
+    type: boolean
+  fix_pathinfo:
+    type: boolean
+  force_redirect:
+    type: boolean
+  nph:
+    type: boolean
+  redirect_status_env:
+    type: string
+  rfc2616_headers:
+    type: integer

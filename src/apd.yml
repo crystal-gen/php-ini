@@ -1,0 +1,8 @@
+type: object
+properties:
+  bitmask:
+    type: boolean
+  dumpdir:
+    type: string
+  statement_tracing:
+    type: boolean

@@ -1,0 +1,4 @@
+type: object
+properties:
+  key_file:
+    type: string

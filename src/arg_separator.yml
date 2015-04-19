@@ -1,0 +1,8 @@
+type:
+  - string
+  - object
+properties:
+  input:
+    type: string
+  output:
+    type: string

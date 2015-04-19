@@ -1,0 +1,10 @@
+type: object
+properties:
+  client_home:
+    type: string
+  enable_exception:
+    type: boolean
+  enable_trace:
+    type: boolean
+  log_path:
+    type: string
